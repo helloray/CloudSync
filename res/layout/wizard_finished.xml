@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.netortech.cloudsync.ui.wizard.CustomLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gray"
+    android:orientation="vertical" >
+    <include
+        android:id="@+id/incTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/wizard_step_top" />
+	<LinearLayout
+		android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+	    <Button
+	        android:id="@+id/btnFinishAndSave"
+	        android:layout_marginTop="10sp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnFinishAndSave_caption" />
+	    <Button
+	        android:id="@+id/btnAdvancedOptions"
+	        android:layout_marginTop="10sp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/btnAdvancedOptions_caption" />
+   	</LinearLayout>
+    <include
+        android:id="@+id/incBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@layout/wizard_step_bottom" />    
+</net.netortech.cloudsync.ui.wizard.CustomLinearLayout>

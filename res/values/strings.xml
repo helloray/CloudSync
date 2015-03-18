@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cloud Sync</string>
+    
+    <string name="btnAccounts_caption">Cloud Accounts</string>
+    <string name="btnTasks_caption">Manage Jobs</string>
+    <string name="btnStartService_caption">Start Service</string>
+    <string name="btnStopService_caption">Stop Service</string>
+    <string name="btnAddAccount_caption">Add New Account</string>
+    <string name="btnAddTask_caption">Add New Job</string>
+	<string name="btnChangeTaskBehavior_caption">I need to change the way this job behaves.</string>
+	<string name="btnChangeAccountInfo_caption">I need to change my account login information.</string>
+	<string name="btnFinishAndSave_caption">Finish and Save</string>
+	    	    
+    <string name="txtAccountName_caption">Account Name:</string>
+    <string name="txtTaskName_caption">Task Name:</string>
+    <string name="txtTaskMaxSize_caption">Wifi Maximum File Size (Bytes):</string>
+    <string name="txtTaskMobileMaxSize_caption">Mobile Maximum File Size (Bytes):</string>
+    <string name="txtTaskPath_caption">Path:</string>
+    
+    <string name="ddlTaskAccount_caption">Task Account:</string>
+    <string name="ddlAccountEngine_caption">Account Engine:</string>
+        
+    <string name="account_colon">Account:</string>
+    <string name="delete_account_confirm">Are you sure you wish to delete this account?</string>
+    <string name="no_account_data_items">Please Select a Cloud Engine</string>
+    <string name="no_account_items">No Accounts Found</string>
+    <string name="account_disabled">This account was disabled due to authentication issues. Please check your settings and try again.</string>
+    <string name="account_disabled_ticker">Account \'%s\' was disabled due to authentication issues.</string>
+    <string name="account_disabled_notification">Account disabled.</string>
+    <string name="account_disabled_fix">Check \'%s\' credentials.</string>
+    <string name="account_login_success">Account successfully authenticated!</string>
+	<string name="account_login_failed">Account could not authenticate. Reason: %s</string>
+    <string name="account_name_required">Account authenticated but you must enter a name.</string>
+	    	
+	<string name="account_login_failed_retry">Account could not authenticate. Would you like to retry?</string>
+	<string name="current_accounts">Current Accounts</string>
+	<string name="account_settings">Account Settings</string>
+	<string name="change_task_account">Would you like this job to use this account from now on?</string>
+	<string name="test_account">Test Account Credentials</string>
+	    	    	    
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="back">Back</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="test">Test</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+	<string name="ok">Okay</string>
+	<string name="select">Select</string>
+    <string name="please_wait">Please wait...</string>
+    <string name="retrieving_data">Retrieving data ...</string>
+    <string name="authenticating">Authenticating ...</string>
+	<string name="currently_browsing">Currently Browsing:</string>	    
+	<string name="service_colon">Service:</string>
+	    
+    <string name="delete_task_confirm">Are you sure you wish to delete this job?</string>
+    <string name="current_tasks">Current Jobs</string>
+	<string name="task_failed">Job failed. Reason: %s</string>
+	<string name="task_success">Job succeeded! %s</string>
+    <string name="running_task">Current Jobs</string>
+	<string name="question_change_task">Do you need to change this job\'s behavior as well?</string>
+        	    
+	<string name="count_files_parsed">%s files successfully parsed from cloud.</string>
+	
+    <string name="service_not_running">Cloud Sync Service is Stopped</string>
+    <string name="service_shutting_down">Cloud Sync Service is Shutting Down</string>
+    <string name="service_running">Cloud Sync Service is Running</string>
+  	<string name="notification_service_running">Cloud Sync service is running.</string>	    	    	    
+  	<string name="notification_service_finishing">Cloud Sync service is shutting down.</string>	    	    	    
+  	<string name="notification_service_suspended">Cloud Sync service is suspended.</string>	    	    	    
+	<string name="notification_service_powersave">Running in power saving mode.</string>	    	    	    
+	<string name="notification_service_bandwidthsave">Running in bandwidth saving mode.</string>
+	
+	<string name="continue_question">Would you like to continue?</string>
+	<string name="finished_wizard">You are finished with this wizard. Would you like to save your changes</string>
+	<string name="cloud_containers">Cloud Containers</string>
+	<string name="cloud_folders">Cloud Folders</string>
+	<string name="cloud_folders_failed_retry">Failed to download cloud folders. Would you like to retry?</string>
+	    
+	<color name="selected">#66ff9955</color>
+	<string name="local_folders">Local Folders</string>
+	<string name="media_files">Just videos, music and pictures</string>
+	<string name="assorted_files">Assorted files, let me pick where to store them</string>
+	<string name="store_with_media">Yes, and add them to my media library</string>
+	<string name="specify_local_location">No, let me specify a location</string>
+	<string name="local_location_change">Yes I want to change where they are stored</string>
+	<string name="no_local_location_change">No, don\'t change where they are stored</string>
+	<string name="specify_cloud_location">Yes, let me specify the location</string>
+	<string name="cloud_default_location">No, just sync all the files</string>
+	<string name="no_cloud_location_change">No, don\'t change the location</string>
+	<string name="btnAdvancedOptions_caption">Take me to the advanced options</string>
+	<string name="what_size_files_mobile">What size files should be synced over your mobile data network?</string>
+	<string name="what_size_files_wifi">What size files should be synced over any wifi network?</string>
+	<string name="finished">Finished</string>
+	<string name="what_name_for_task">What would you like to call this job</string>
+	<string name="next">Next</string>
+	<string name="task_name_required">Please enter a name for this job.</string>
+	<string name="what_name_for_account">What would you like to call this account</string>
+</resources>

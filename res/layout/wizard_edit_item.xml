@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="?android:attr/listPreferredItemHeight" 
+	android:padding="3dip"
+	android:shrinkColumns="0"
+	android:stretchColumns="1">
+    <TableRow
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent">
+			<TextView
+			    android:id="@+id/lblItemTitle"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:gravity="center_vertical" />
+			<TextView
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/lblItemDescription"
+			    android:ellipsize="end" 
+				android:lines="1"
+				android:scrollHorizontally="true" />
+		</LinearLayout>
+		<LinearLayout
+		    android:gravity="right"
+		    android:layout_width="wrap_content"
+		    android:layout_height="fill_parent">
+		    <Button 
+			    android:id="@+id/btnSelect"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="SET TEXT" />
+			<Button 
+			    android:id="@+id/btnDelete"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/delete" />
+		</LinearLayout>
+	</TableRow>
+</TableLayout>

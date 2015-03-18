@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.netortech.cloudsync"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="10" />
+
+    <application
+        android:debuggable="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:launchMode="singleTask" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".CloudSyncActivity" android:launchMode="singleTask" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.advanced.WebViewActivityViewActivity"></activity>
+        <activity android:name=".ui.advanced.AccountsActivity"></activity>
+        <activity android:name=".ui.advanced.AccountEditActivity"></activity>
+        <activity android:name=".ui.advanced.TasksActivity"></activity>
+        <activity android:name=".ui.advanced.TaskEditActivity"></activity>
+        
+        <activity android:name=".ui.wizard.AccountActivity"></activity>
+        <activity android:name=".ui.wizard.AccountNameActivity"></activity>
+        <activity android:name=".ui.wizard.AdvancedActivity"></activity>
+        <activity android:name=".ui.wizard.CloudContainerActivity"></activity>
+        <activity android:name=".ui.wizard.CloudFolderActivity"></activity>
+        <activity android:name=".ui.wizard.CredentialsActivity"></activity>
+        <activity android:name=".ui.wizard.FinishedActivity"></activity>
+        <activity android:name=".ui.wizard.LocalFolderActivity"></activity>
+        <activity android:name=".ui.wizard.OAuthActivity"></activity>
+        <activity android:name=".ui.wizard.SelectCloudResourceActivity"></activity>
+        <activity android:name=".ui.wizard.SelectLocalFolderActivity"></activity>
+        <activity android:name=".ui.wizard.TaskActivity"></activity>
+        <activity android:name=".ui.wizard.TaskNameActivity"></activity>
+        <activity android:name="net.netortech.cloudsync.ui.wizard.TestAccountActivity"></activity>
+            
+        <service android:name=".CloudSyncService"></service>
+    </application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+</manifest>
